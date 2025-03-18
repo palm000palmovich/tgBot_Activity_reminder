@@ -1,0 +1,4 @@
+-- liquibase formatted sql
+-- changeset ityapkin:3
+ALTER TABLE notifications_task
+DROP COLUMN text;
